@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-rows: 10vh 80vh;
+}
+
+header {
+    background-color: black;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+.nav-item {
+    width: 60px;
+    height: 20px;
+    background-color: grey;
+}
+
+#content {
+  display: grid;
+  grid-template-rows: 80vh 10vh;
+}
+
+#header {
+    background-color: grey;
+    text-align: center;
+}
+.main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurb {
+border-color: black;
+border: 0.2rem solid;
+}
+
+footer {
+    background-color: grey;
+}
